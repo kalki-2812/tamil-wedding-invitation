@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Volume2, VolumeX } from 'lucide-react';
 
-import { weddingConfig } from '../data/weddingConfig';
 
 interface NavbarProps {
   isPlaying: boolean;
