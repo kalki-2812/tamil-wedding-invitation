@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Volume2, VolumeX } from 'lucide-react';
-
-
 interface NavbarProps {
   isPlaying: boolean;
   onTogglePlay: () => void;
